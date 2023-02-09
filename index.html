@@ -27,7 +27,7 @@
                 <li>Model</li>
             </ul>
         </section>
-        <section>
+        <section class="fruits-container">
             <h1 id="fruits-title">Fruits i like to eat</h1>
             <ul>
                 <li>Apple</li>
@@ -50,11 +50,17 @@
     <script>
         const liCollections = document.getElementsByTagName('li');
         for (const li of liCollections) {
-            console.log(li.innerText);
+            //console.log(li.innerText);
         }
         const h1Collections = document.getElementsByTagName('h1');
         for (const h1 of h1Collections) {
-            console.log(h1.innerText);
+            //console.log(h1.innerText);
+        }
+        
+        // query selector
+        const someLi = document.querySelectorAll('.fruits-container li');
+        for (const li of someLi) {
+            console.log(li.innerText);
         }
     </script>
 </body>
