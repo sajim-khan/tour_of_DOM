@@ -28,7 +28,14 @@
     </main>
     <script src="js/dom.js"></script>
     <script>
-        
+        const liCollections = document.getElementsByTagName('li');
+        for (const li of liCollections) {
+            console.log(li.innerText);
+        }
+        const h1Collections = document.getElementsByTagName('h1');
+        for (const h1 of h1Collections) {
+            console.log(h1.innerText);
+        }
     </script>
 </body>
 </html>
