@@ -16,7 +16,7 @@
     <header>
         <h1>WElcome to my DOM</h1>
     </header>
-    <main>
+    <main id = "main-container">
         <h1>
             My Website
         </h1>
@@ -37,7 +37,7 @@
         </section>
         <section id="places-container" class="large-text">
             <h1 class = 'title-place'>Place i like to visit</h1>
-            <ul>
+            <ul id="places-list">
                 <li class="places">Sondaeban</li>
                 <li class="places">Coxs Bazar</li>
                 <li class="places">Bandarban</li>
@@ -48,6 +48,7 @@
     </main>
     <script src="js/dom.js"></script>
     <script src="js/stylein.js"></script>
+    <script src="js/append.js"></script>
     <script>
         const liCollections = document.getElementsByTagName('li');
         for (const li of liCollections) {

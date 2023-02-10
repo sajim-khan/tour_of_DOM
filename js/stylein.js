@@ -15,3 +15,4 @@ const placesContainer = document.getElementById('places-container');
 placesContainer.classList.add('text-center');
 // also remove class by js
 placesContainer.classList.remove('large-text');
+
